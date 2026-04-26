@@ -44,15 +44,24 @@
         }
 
         .contact a {
-            text-decoration: none; 
+            text-decoration: none;
             color: black;
         }
-        
+
         .contact a:hover {
             text-decoration: none;
             color: blue;
         }
 
+        .project-link {
+            text-decoration: none;
+            color: black;
+        }
+
+        .project-link:hover {
+            text-decoration: none;
+            color: blue;
+        }
 
         ul {
             padding-left: 20px;
@@ -92,7 +101,6 @@
                 margin: 0;
             }
         }
-        
     </style>
 </head>
 
@@ -103,9 +111,10 @@
         <!-- Header -->
         <h1>Mukesh Patil</h1>
         <p class="contact">
-            Email: <a href="mailto:mail.mukeshpatil@gmail.com">mail.mukeshpatil@gmail.com</a> | 
+            Email: <a href="mailto:mail.mukeshpatil@gmail.com">mail.mukeshpatil@gmail.com</a> |
             Phone: <a href="tel:+917276232675">+91 7276232675</a> | Location: Jalgaon, Maharashtra <br>
-            LinkedIn: <a href="https://www.linkedin.com/in/mukeshpatil2005/" target="_blank">linkedin.com/in/mukeshpatil2005</a> | 
+            LinkedIn: <a href="https://www.linkedin.com/in/mukeshpatil2005/"
+                target="_blank">linkedin.com/in/mukeshpatil2005</a> |
             GitHub: <a href="https://github.com/mspatil-jalgaon" target="_blank">github.com/mspatil-jalgaon</a>
         </p>
 
@@ -142,23 +151,17 @@
         <!-- Projects -->
         <h2>Projects</h2>
 
-        <p><strong>Student Performance Analysis</strong></p>
-        <ul>
-            <li>Analyzed student data using Python and Pandas</li>
-            <li>Identified factors affecting academic performance</li>
-        </ul>
-
-        <p><strong>Sales Data Analysis</strong></p>
+        <div class="edu-row">
+            <strong>Sales Data Analysis</strong>
+            <span>
+                <a href="https://github.com/mspatil-jalgaon/Recipe-Finder" target="_blank" class="project-link">
+                    View Project
+                </a> | 2023
+            </span>
+        </div>
         <ul>
             <li>Cleaned and analyzed sales dataset using NumPy and Pandas</li>
             <li>Visualized trends using Matplotlib</li>
-        </ul>
-
-        <p><strong>House Price Prediction</strong></p>
-        <ul>
-            <li>Built a regression model using Scikit-learn</li>
-            <li>Trained and tested model on housing dataset</li>
-            <li>Evaluated model performance using accuracy metrics</li>
         </ul>
 
         <!-- Certifications -->
@@ -172,7 +175,7 @@
                     </span>
                 </div>
             </li>
-                        <strong>Bachelor of Computer Science (B.Tech.)</strong>
+            <strong>Bachelor of Computer Science (B.Tech.)</strong>
 
         </ul>
 
@@ -186,7 +189,7 @@
             </span>
         </div>
 
-        
+
         <div class="edu-row">
             <strong>Higher Secondary Certificate (H.S.C.)</strong>
             <span>
