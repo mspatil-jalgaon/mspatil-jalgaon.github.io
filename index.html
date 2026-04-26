@@ -4,100 +4,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mukesh Patil</title>
+    <title>Mukesh Patil Resume</title>
 
-    <!-- Bootstrap CDN -->
+    <!-- Bootstrap (only for basic typography, no layout dependency) -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
         body {
-            background-color: #f8f9fa;
             font-family: Arial, sans-serif;
+            background: #ffffff;
+            color: #000;
+            line-height: 1.6;
         }
 
-        h1,
+        .resume {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 10px;
+        }
+
+        h1 {
+            font-size: 26px;
+            font-weight: bold;
+        }
+
         h2 {
-            border-bottom: 2px solid #000;
-            padding-bottom: 5px;
-        }
-
-        .section {
+            font-size: 18px;
             margin-top: 20px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 4px;
         }
 
-        .small-text {
-            color: gray;
-            font-size: 0.9rem;
+        p, li {
+            font-size: 14px;
+        }
+
+        .contact {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        /* Print optimization */
+        @media print {
+            body {
+                margin: 0;
+            }
         }
     </style>
 </head>
 
 <body>
 
-    <div class="resume shadow">
+<div class="resume">
 
-        <!-- Header -->
-        <div class="text-center">
-            <h1><b>Mukesh Patil</b></h1>
-            <p class="small-text">
-                Email: mslevapatil@gmail.com | Phone: +91 72762 32675 | Location: Jalgaon
-            </p>
-        </div>
+    <!-- Header -->
+    <h1>Mukesh Patil</h1>
+    <p class="contact">
+        Email: mslevapatil@gmail.com | Phone: +91 7276232675 | Location: Jalgaon, Maharashtra <br>
+        LinkedIn: linkedin.com/in/yourname | GitHub: github.com/yourname
+    </p>
 
-        <!-- About -->
-        <div class="section">
-            <h2>Profile</h2>
-            <p>
-                A motivated individual with skills in web development and problem solving.
-                Looking for opportunities to grow and contribute.
-            </p>
-        </div>
+    <!-- Professional Summary -->
+    <h2>Professional Summary</h2>
+    <p>
+        Entry-level web developer with knowledge of HTML, CSS, Bootstrap, and JavaScript.
+        Skilled in building responsive web pages and solving basic front-end problems.
+        Seeking an opportunity to contribute and grow in a professional environment.
+    </p>
 
-        <!-- Skills -->
-        <div class="section">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML, CSS, Bootstrap</li>
-                <li>JavaScript Basics</li>
-                <li>Responsive Design</li>
-            </ul>
-        </div>
+    <!-- Skills -->
+    <h2>Skills</h2>
+    <ul>
+        <li>Languages: HTML, CSS, JavaScript</li>
+        <li>Frameworks: Bootstrap</li>
+        <li>Concepts: Responsive Design, Basic DOM Manipulation</li>
+        <li>Tools: Git, GitHub, VS Code</li>
+    </ul>
 
-        <!-- Experience -->
-        <div class="section">
-            <h2>Experience</h2>
+    <!-- Work Experience -->
+    <h2>Work Experience</h2>
 
-            <div>
-                <h5>Web Developer Intern</h5>
-                <p class="small-text">Company Name | 2024</p>
-                <ul>
-                    <li>Built responsive web pages</li>
-                    <li>Worked with Bootstrap framework</li>
-                </ul>
-            </div>
+    <p><strong>Web Developer Intern</strong><br>
+    Company Name | 2024</p>
+    <ul>
+        <li>Developed responsive web pages using HTML, CSS, and Bootstrap</li>
+        <li>Improved layout structure and usability of web pages</li>
+        <li>Collaborated with team members on front-end development tasks</li>
+    </ul>
 
-        </div>
+    <!-- Projects -->
+    <h2>Projects</h2>
 
-        <!-- Education -->
-        <div class="section">
-            <h2>Education</h2>
-            <p>
-                Bachelor’s Degree in Computer Science <br>
-                University Name | 2021 - 2025
-            </p>
-        </div>
+    <p><strong>Portfolio Website</strong></p>
+    <ul>
+        <li>Created a personal portfolio using HTML, CSS, and Bootstrap</li>
+        <li>Implemented responsive design for mobile and desktop devices</li>
+    </ul>
 
-        <!-- Projects -->
-        <div class="section">
-            <h2>Projects</h2>
-            <ul>
-                <li>Portfolio Website</li>
-                <li>Simple To-Do App</li>
-            </ul>
-        </div>
+    <p><strong>To-Do Application</strong></p>
+    <ul>
+        <li>Built a task management application using JavaScript</li>
+        <li>Added features like add, delete, and mark tasks as complete</li>
+    </ul>
 
-    </div>
+    <!-- Education -->
+    <h2>Education</h2>
+    <p>
+        Bachelor of Computer Science <br>
+        University Name | 2021 – 2025
+    </p>
+
+</div>
 
 </body>
-
 </html>
